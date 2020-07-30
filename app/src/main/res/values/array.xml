@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="queries">
+        <item>None</item>
+        <item>View All the journals uploaded</item>
+        <item>View All the Conference Files uploaded</item>
+        <item>View All the journal files uploaded for the past 6 months</item>
+        <item>View All the conference files uploaded for the past 6 months</item>
+        <item>View All the journal files uploaded for the past 12 months</item>
+        <item>View All the conference files uploaded for the past 12 months</item>
+    </string-array>
+    <string-array name="acad_year">
+        <item>Choose Academic Year</item>
+        <item>2015-2016</item>
+        <item>2016-2017</item>
+        <item>2017-2018</item>
+        <item>2018-2019</item>
+        <item>2019-2020</item>
+    </string-array>
+</resources>

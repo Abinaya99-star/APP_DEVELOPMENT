@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mini">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/marriage"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".journal"></activity>
+        <activity android:name=".view1" />
+        <activity android:name=".Con2" />
+        <activity android:name=".viewbyquery" />
+        <activity android:name=".adminlog" />
+        <activity android:name=".vie" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Conference" />
+        <activity android:name=".faclogbase" />
+        <activity android:name=".view" />
+        <activity android:name=".facupload" />
+        <activity android:name=".faclog" />
+        <activity android:name=".studlog" />
+        <activity android:name=".FacultyRegis" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

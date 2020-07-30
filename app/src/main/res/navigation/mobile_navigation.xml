@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mini.RegAct"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_studreg"
+        android:name="com.example.mini.RegisterActivity"
+        android:label="Student Register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/nav_facultyreg"
+        android:name="com.example.mini.facreg"
+        android:label="Faculty Register"
+        tools:layout="@layout/fragment_facul" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.mini.loginAct"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.mini.helpact"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>
